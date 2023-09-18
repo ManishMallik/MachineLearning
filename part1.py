@@ -41,7 +41,7 @@ def ssr_gradient(X, y, w):
 
 #Gradient descent function (elaborated from the lab to fit for multivariate linear regression)
 def gradient_descent(
-     gradient, x, y, start, learn_rate, n_iter, tolerance=1e-07
+     gradient, x, y, start, learn_rate, n_iter, tolerance=1e-08
  ):
   cost_history = [1e10]
   #vector of weights
