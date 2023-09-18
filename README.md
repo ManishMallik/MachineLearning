@@ -9,4 +9,4 @@ There are two Python files to run: part1.py and part2.py
 
 Additionally, try importing both of these files in Google Collab and run them
 
-**Important note -> we retrieved the dataset by using this URL in our code: "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
+Important note -> we retrieved the dataset by using this URL in our code: "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
