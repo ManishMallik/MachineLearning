@@ -92,27 +92,7 @@ y_train = np.array(y_train)
 X_test = np.array(X_test)
 y_test = np.array(y_test)
 
-"""Plots of how each feature chosen relates to the output attributes"""
-
-#Plotting different graphs for each attribute and compare its correlation to the target attribute
-cols = ['Cylinders', 'Displacement', 'Weight', 'Acceleration', 'Model Year', 'Origin', 'MPG']
-X_train_df = pd.DataFrame(X_train, columns=cols[:-1])
-
-# input and output
-fig, axs = plt.subplots(1, len(cols) - 1, figsize=(20, 5))
-
-x_labels = cols[:-1]
-
-for i, subp in enumerate(axs):
-    x_vals = X_train_df[x_labels[i]]
-    subp.scatter(x_vals, y_train, alpha=0.5)
-    subp.set_xlabel(x_labels[i])
-    subp.set_ylabel('MPG')
-
-plt.tight_layout()
-plt.show()
-
-"""Training"""
+"""Training the model and Testing it"""
 
 #Training
 learning_rate = 0.0000001
@@ -146,4 +126,24 @@ plt.plot(x, costs, "r", scalex=1000, scaley=2)
 plt.title('MSE vs Iterations', size = 30 )
 plt.xlabel('No. of iterations', size = 20)
 plt.ylabel('MSE', size=20)
+plt.show()
+
+"""Plots of how each feature chosen relates to the output attributes"""
+
+#Plotting different graphs for each attribute and compare its correlation to the target attribute
+cols = ['Cylinders', 'Displacement', 'Weight', 'Acceleration', 'Model Year', 'Origin', 'MPG']
+X_train_df = pd.DataFrame(X_train, columns=cols[:-1])
+
+# input and output
+fig, axs = plt.subplots(1, len(cols) - 1, figsize=(20, 5))
+
+x_labels = cols[:-1]
+
+for i, subp in enumerate(axs):
+    x_vals = X_train_df[x_labels[i]]
+    subp.scatter(x_vals, y_train, alpha=0.5)
+    subp.set_xlabel(x_labels[i])
+    subp.set_ylabel('MPG')
+
+plt.tight_layout()
 plt.show()
