@@ -8,4 +8,9 @@ This Neural Network Model uses the Breast Cancer Wisconsin dataset from the UCI 
 
 The libraries we used are only for preprocessing the dataset, where we removed any rows containing missing values. We also imported numpy for the math, pd for getting the dataset, and matplotlib.pyplot for plotting the graphs. There were no libraries used for creating a neural network.
 
-Important note -> we retrieved the dataset by using this URL in our code: "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
+Our report of results in a tabular format, along with the summary of our results, are all in our assignment 2 report PDF file.
+
+Important note: we retrieved the dataset by using this URL in our code: "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
+
+Assumptions we made: 
+1. For each activation derivative function, the value being passed as a parameter (x) contains the output values of each hidden neuron and output neuron, which already went through the original activation function. Therefore, we do not have to call the respective original activation function when doing the derivative; instead, we do it in terms of x. For example, if x = sigmoid(some value), then in the sigmoid derivative function, we do x * (1-x) instead of sigmoid(x) * (1-sigmoid(x)), as we learned in our lecture.
