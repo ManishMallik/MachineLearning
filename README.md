@@ -14,3 +14,4 @@ Important note: we retrieved the dataset by using this URL in our code: "https:/
 
 Assumptions we made: 
 1. For each activation derivative function, the value being passed as a parameter (x) contains the output values of each hidden neuron and output neuron, which already went through the original activation function. Therefore, we do not have to call the respective original activation function when doing the derivative; instead, we do it in terms of x. For example, if x = sigmoid(some value), then in the sigmoid derivative function, we do x * (1-x) instead of sigmoid(x) * (1-sigmoid(x)), as we learned in our lecture.
+2. There may not be a hidden neuron or output neuron with a neural net value (the value before going through the activation function) of 0.
