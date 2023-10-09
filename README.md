@@ -6,4 +6,6 @@ There are a total of 7 different coding cells in this notebook. Run each cell in
 
 This Neural Network Model uses the Breast Cancer Wisconsin dataset from the UCI ML repositories. This consists of 9 attributes (we will not count Code # as that has no correlation with predicting the output), and 1 output, which can represent two classes: benign tumors (2) or malign tumors (4). We have a preprocess method that converts those class values to 0 and 1, respectively. Our train/test ratio was 80% of the dataset will be used to train the neural betwork model while the remaining 20% will be used for testing the model.
 
+The libraries we used are only for preprocessing the dataset, where we removed any rows containing missing values. We also imported numpy for the math, pd for getting the dataset, and matplotlib.pyplot for plotting the graphs. There were no libraries used for creating a neural network.
+
 Important note -> we retrieved the dataset by using this URL in our code: "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
