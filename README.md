@@ -4,7 +4,7 @@ We utilized Google Colab for this assignment. Attached below is the link to our 
 
 There are a total of 2 different coding cells in this notebook. Run each cell in order from top to bottom. The first cell will contain the whole main code, which uses a K-Means clustering algorithm to cluster tweets from a text file that we choose from the dataset. It will also print out the sum of squared error (SSE) for each k-cluster and the size of each cluster within those k clusters. The 2nd cell will generate a graph displaying the trend between the number of clusters (k) and the SSE.
 
-This program uses the "usnewshealth.txt" file from the following dataset: https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter. We have a preprocess method that will process all the tweets before clustering them.
+This program uses the "usnewshealth.txt" file from the following dataset: [https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter](https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter). We have a preprocess method that will process all the tweets before clustering them.
 
 The libraries we used are:
 - re for modifying tweets, such as removing the timestamp, ID, #, any word that starts with @, and any URLs
@@ -15,4 +15,4 @@ The libraries we used are:
 
 Our report of results in a tabular format, along with the summary of our results and the graph, are all in our assignment 3 report PDF file.
 
-Important note: we retrieved the dataset by using this URL in our code: (https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip)https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip
+Important note: we retrieved the dataset by using this URL in our code: [https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip](https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip)
