@@ -15,4 +15,4 @@ The libraries we used are:
 
 Our report of results in a tabular format, along with the summary of our results and the graph, are all in our assignment 3 report PDF file.
 
-Important note: we retrieved the dataset by using this URL in our code: ["https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"](https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip)https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip
+Important note: we retrieved the dataset by using this URL in our code: (https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip)https://archive.ics.uci.edu/static/public/438/health+news+in+twitter.zip
